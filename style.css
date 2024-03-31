@@ -7,6 +7,10 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    color: #3882f6;
+}
+
 img {
     width: inherit;
 }
@@ -15,7 +19,7 @@ html body {
     height: 100vh;
     min-width: 100vw;
     width: 100vw;
-    font-family: Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
 }
@@ -37,6 +41,7 @@ html body {
 
 .logo {
     font-size: 22px;
+    font-family: "Sofia";
     color: #f9faf8;
     font-weight: 1000;
 }
@@ -67,6 +72,12 @@ html body {
 .sub-txt-1 {
     font-size: 36px;
     font-weight: bold;
+    line-height: 1;
+}
+
+.sub-txt-2 {
+    color: #e5e7eb;
+    margin-top: 10px;
 }
 
 .sub-right {
@@ -85,9 +96,38 @@ button {
     border-radius: 5px;
     text-align: center;
     margin-top: 10px;
-
 }
 
+/* MAIN-1 */
+
+.m1-main-text {
+    color: #2b394d;
+    font-size: 28px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.m1-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.m1-img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    width: 130px;
+    height: 130px;
+}
+
+p.m1-image-text {
+    color: #1f2937;
+    width: 130px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+}
 
 /* FOOTER */
 
