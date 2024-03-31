@@ -16,8 +16,6 @@ img {
 }
 
 html body {
-    height: 100vh;
-    min-width: 100vw;
     width: 100vw;
     font-family: "Roboto", Helvetica, sans-serif;
     display: flex;
@@ -41,13 +39,12 @@ html body {
 
 .logo {
     font-size: 22px;
-    font-family: "Sofia";
     color: #f9faf8;
     font-weight: 1000;
 }
 
 .links {
-    font-size: 14px;
+    font-size: 16px;
     display: flex;
     gap: 20px;
 }
@@ -56,7 +53,7 @@ html body {
 
 .subheader {
     background-color: #1F2937;
-    height: 400px;
+    height: 350px;
     display: flex;
     gap: 50px;
 }
@@ -128,6 +125,70 @@ p.m1-image-text {
     text-align: center;
     padding-top: 5px;
 }
+
+/* MAIN-2 */
+
+.main-2 {
+    height: 250px;
+    background-color: #e5e7eb;
+    text-align: center;
+    margin-top: 50px;  
+}
+
+p.m2-main-text {
+    padding-top: 50px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 22px;
+    text-align: left;
+}
+
+p.m2-signature-text {
+    padding-top: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: right;
+}
+
+/* MAIN-3 */
+
+.main-3 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner {
+    width: 80vw;
+    height: 120px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.banner-text {
+    width: 50%;
+    color: #e5e7eb;
+}
+
+.banner-title {
+    font-size: 18px;
+}
+
+p.banner-subtext {
+    font-size: 12px;
+}
+
+.banner-button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
 
 /* FOOTER */
 
